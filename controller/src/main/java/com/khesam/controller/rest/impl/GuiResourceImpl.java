@@ -15,6 +15,6 @@ public class GuiResourceImpl implements GuiResource {
     @Override
     public Response launchLoginGui() {
         guiService.gui();
-        return Response.ok("shod").build();
+        return Response.noContent().build();
     }
 }

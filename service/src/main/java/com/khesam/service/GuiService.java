@@ -1,11 +1,14 @@
 package com.khesam.service;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 
 @ApplicationScoped
 public class GuiService {
 
-    public void gui() {
+    @Inject LoginGui loginGui;
 
+    public void gui() {
+        loginGui.launchLoginGui();
     }
 }

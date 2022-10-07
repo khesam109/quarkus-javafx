@@ -36,6 +36,10 @@
             <groupId>com.khesam</groupId>
             <artifactId>service</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.khesam</groupId>
+            <artifactId>gui</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>io.quarkus</groupId>
